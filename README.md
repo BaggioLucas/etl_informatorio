@@ -16,9 +16,13 @@ Por ultimo tambien debes crear un archivo config.py con los siguientes datos:
 
 ### Datos para la conexión a la base de datos
 user = nombre de usuario de la base de datos
+
 password = contraseña de la base de datos
+
 host = host de la base de datos
+
 port = puerto de la base de datos
+
 database = nombre de la base de datos creada
 
 ## Configuración de la Ubicación
