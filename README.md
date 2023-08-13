@@ -12,6 +12,15 @@ Antes de ejecutar el código, asegúrate de tener instaladas las siguientes bibl
 Además, necesitas obtener una clave de API de la fuente de datos meteorológicos. Puedes obtener una clave registrándote en la plataforma que proporciona los datos meteorológicos y luego colocarla en un archivo llamado credencial.py de la siguiente manera:
 "tu_clave_de_api_aqui" (sin las comillas)
 
+Por ultimo tambien debes crear un archivo config.py con los siguientes datos:
+
+## Datos para la conexión a la base de datos
+user = nombre de usuario de la base de datos
+password = contraseña de la base de datos
+host = host de la base de datos
+port = puerto de la base de datos
+database = nombre de la base de datos creada
+
 ## Configuración de la Ubicación
 El código está configurado para obtener datos climáticos para un listado de ciudades definido, el mismo puede modificarse agregando o quitando ciudades.
 Ademas, al variar las ciudades el codigo automaticamente va a tomar la nueva latitud y longitud en las variables lat y lon respectivamente,
