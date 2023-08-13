@@ -14,7 +14,7 @@ Además, necesitas obtener una clave de API de la fuente de datos meteorológico
 
 Por ultimo tambien debes crear un archivo config.py con los siguientes datos:
 
-## Datos para la conexión a la base de datos
+### Datos para la conexión a la base de datos
 user = nombre de usuario de la base de datos
 password = contraseña de la base de datos
 host = host de la base de datos
